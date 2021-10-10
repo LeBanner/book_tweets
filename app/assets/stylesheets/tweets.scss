@@ -1,3 +1,122 @@
-// Place all the styles related to the tweets controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+.top_page{
+  background-image:url("本棚.jpg") ;
+  width: 100%;
+}
+.sessons_new{
+  background-image: url("子供読書.jpg"); 
+  background-size: cover;
+}
+.container{
+ width: 50vw;
+ margin-right: 20px;
+ 
+}
+.sessons_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.registrations_new{
+  background-image: url("ノート.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+.registrations_wrapper{
+  margin: 0 auto;
+}
+.registrations_container{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.field {
+  width: 40vw;
+  margin-right: 0px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.actions{
+  width: 40vw;
+  margin-right: 0px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.tweets_new {
+  background-image: url("desk.jpg");
+  background-size: cover;
+  width: 80vw;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.post_container {
+  text-align: center;
+}
+
+.form-model {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+  padding-top:100px;
+  padding-bottom:30px;
+  opacity: 0.7;
+}
+.form-model:hover {
+  opacity: 1.0;
+}
+
+.post_text {
+  color :white;
+  font-size: 30px;
+  padding-top: 80px;
+  margin-bottom: -40px;
+}
+
+.tweets_show{
+  background-image: url("並木道.jpg");
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 800px;
+}
+.container{
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.contents1 {
+  background-size: cover;
+  width: 60%;
+  height: 300px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+ }
+ .comments_show{
+   font-size: 30px;
+   color: oldlace;
+   padding-top: 30px;
+   margin-bottom: 30px;
+ }
+ .contents_span{
+  background-size: cover;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+ }
+ .book_list{
+   background-image: url("星空.jpg");
+   text-align: center;
+   padding-top: 30px;
+ }
+
+ .container_edit{
+   background-image: url("湖.jpg");
+   background-size: cover;
+   text-align: center;
+ }

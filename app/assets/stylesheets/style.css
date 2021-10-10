@@ -707,8 +707,8 @@ form input[type="submit"] {
 header.header div.header__bar.row div.grid-6 a.post {
   padding: 8px 20px;
   font-size: 14px;
-  border: 2px solid #57C3E9;
-  color: #57C3E9;
+  border: 2px solid darkgoldenrod;
+  color: darkgoldenrod;
   font-weight: bold;
   text-align: center;
   border-radius: 3px;
@@ -717,8 +717,8 @@ header.header div.header__bar.row div.grid-6 a.post {
 
 .btn:hover,
 header.header div.header__bar.row div.grid-6 a.post:hover {
-  border-color: #9bdbf2;
-  color: #9bdbf2;
+  border-color: burlywood;
+  color: burlywood;
 }
 
 .title {
@@ -738,6 +738,7 @@ header.header div.header__bar.row div.grid-6 a.post:hover {
 header.header {
   padding: 10px;
   border-bottom: 1px solid #D8D8D8;
+  background-image: url("用紙.jpg");
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -836,10 +837,10 @@ header.header .user_nav ul li a {
 }
 
 .form footer {
-  position: absolute;
+  /* position: absolute;
   bottom: 10px;
   left: 0;
-  right: 0;
+  right: 0; */
 }
 
 div.contents.row h2 {
@@ -994,7 +995,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-  background-color: #57C3E9;
+  background-color: darkgoldenrod;
   border-radius: 20px;
   color: #fff;
   border: 0;
@@ -1002,7 +1003,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #84d3ef;
+  background-color: burlywood;
 }
 
 .container {
@@ -1037,7 +1038,7 @@ form input[type="submit"]:hover {
 footer {
   margin: 30px auto;
   padding: 10px;
-  color: #D8D8D8;
+  background-image: url("用紙.jpg");
 }
 
 footer p {

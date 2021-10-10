@@ -1,6 +1,7 @@
-<div class="contents row">
-  <p><%= @nickname %>さんの投稿一覧</p>
+<div class="book_list">
+  <p><%= @nickname %>さんのBook一覧</p>
   <% @tweets.each do |tweet| %>
+  <div class="contents row contents_span">
     <%= render partial: "tweets/tweet" , locals: {tweet: tweet } %>
     </div>
   <% end %>

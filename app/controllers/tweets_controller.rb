@@ -11,12 +11,14 @@ class TweetsController < ApplicationController
   end
 
   def create
-    Tweet.create(tweet_params)
+    @tweet = Tweet.create(tweet_params)
+    redirect_to root_path
   end
 
   def destroy
     tweet = Tweet.find(params[:id])
     tweet.destroy
+    redirect_to root_path
   end
 
   def edit
@@ -27,7 +29,8 @@ class TweetsController < ApplicationController
     tweet.update(tweet_params)
   end
 
-  def show
+  def show 
+    @tweets = Tweet.includes(:user).order('created_at DESC')
     @comment = Comment.new
     @comments = @tweet.comments.includes(:user)
   end
