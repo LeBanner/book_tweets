@@ -1036,8 +1036,8 @@ form input[type="submit"]:hover {
 }
 
 footer {
-  margin: 30px auto;
-  padding: 10px;
+  margin: 0px auto;
+  padding: 10px; 
   background-image: url("用紙.jpg");
 }
 
