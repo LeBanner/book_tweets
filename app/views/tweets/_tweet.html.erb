@@ -1,7 +1,8 @@
-  <%# <div class="content_post" style="background-image: url(<%= tweet.image %>);">    
-  <div class="content_post">
-  <%= image_tag tweet.image.variant(resize: '1000x1000') %>   
-   <div class="more">
+  <%# <div class="content_post" style="background-image: url(<%= tweet.image %>  
+  <div class="content_post" style="background-image: image-url(<%= tweet.image %>);"> 
+    <%# <%= image_tag tweet.image.variant(resize: '500x500') %>    
+    <%= image_tag tweet.image, class:"test" %>   
+   <div class="more" > 
     <span><%= image_tag 'arrow_top.png' %></span>  
     <%# <%= image_tag tweet.image, class: 'tweet-image' if tweet.image.attached? %>  
     <ul class="more_list">
@@ -24,4 +25,4 @@
      <span>投稿者</span><%= tweet.user.nickname %>
     </a>
    </span>
-  </div>
+  </div> 
