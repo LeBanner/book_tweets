@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe TweetsController, type: :request do
   before do
-   @tweet = FactoryBot.create(:tweet)
+    @tweet = FactoryBot.create(:tweet)
   end
 
   describe 'GET #index' do
