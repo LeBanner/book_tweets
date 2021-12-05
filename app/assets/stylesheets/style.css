@@ -876,6 +876,7 @@ div.contents.row div.content_post {
 
 .content_post{
   max-height: 500px;
+  margin-bottom: 100px;
 }
 
 .test {
@@ -1070,4 +1071,10 @@ footer p {
 
 .search-form .search-btn {
   width: 10%;
+}
+
+.show_image{
+ object-fit: contain;
+  height: 60%;
+  width: 80%;
 }

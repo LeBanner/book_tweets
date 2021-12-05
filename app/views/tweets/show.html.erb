@@ -1,12 +1,15 @@
 <div class="tweets_show">
   <div class="comments_show">コメントページ</div>
- <div class="contents1" style="background-image: url(<%= @tweet.image %>);>
+ <%# <div class="contents1" style="background-image: url(<%= @tweet.image %>
+ <%# <div class="content_post"> %>
+ <%= image_tag @tweet.image, class:"show_image" %> 
       <p><%= @tweet.text %></p>
       <span class="name">
       <a href="/users/<%= @tweet.user.id %>">
         <span>投稿者</span><%= @tweet.user.nickname %>
       </a>
   </div>
+  <%# </div> %>
     <div class="container">
     <% if user_signed_in? %>
       <%= form_with(model: [@tweet, @comment], local: true) do |form| %>
