@@ -8,7 +8,8 @@ BOOK TWEET
 # URL
 
 # 本番環境
-ID：admin　PASS：8888
+https://book-tweets.herokuapp.com/
+ID：admin　PASS：1111
 
 # テスト用アカウント
 email：aaa@111　PASS：aaa111
